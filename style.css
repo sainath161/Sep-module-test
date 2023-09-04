@@ -45,12 +45,17 @@ header h1 {
 
 .vl {
     border-left: 2px solid gray;
-    height: 30px;
+    height: 4vh;
 }
 
 .login {
-    border: 2px solid blue;
-    color: blue;
+    border: 2px solid #007be5;
+    color: #007be5;
+}
+
+.login:hover{
+    color: #fff;
+    background-color: #007BFF;
 }
 
 .row {
@@ -70,6 +75,12 @@ header h1 {
     background: linear-gradient(to right, #357aed, #9332ed) !important;
     color: #fff;
     font-weight: bold;
+}
+
+.apply:hover{
+    background: linear-gradient(to right, #9332ed, #357aed) !important;
+    transition: .5s ease all;
+    color: #fff;
 }
 
 .apply2{
@@ -134,6 +145,11 @@ header h1 {
     gap: 30px;
 }
 
+.tex:hover{
+    color: #fff;
+    background-color: #ecf8ff;
+}
+
 .btn1{
     border-color: #007BFF;
     color: #007BFF;
@@ -163,8 +179,19 @@ header h1 {
   }
 
   .placement{
-    margin-left: 44%;
-    margin-right: 44%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .rounded-pill{
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.21) !important;
+  }
+
+  .card5{
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.21) !important;
   }
 
   #frem {
@@ -202,4 +229,16 @@ body {
     border: none;
     background: #fff;
     box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.18) !important;
+}
+
+.tex:hover{
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+@media screen and (max-width: 767.98px) {
+    .apply1 {
+        padding:  0%!important ;
+        margin : auto;
+    }
 }
